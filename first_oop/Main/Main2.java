@@ -28,7 +28,7 @@ public class Main2 {
         System.out.println("The cicle color is: " + test.get_Color());
         System.out.printf("The cicle aria is: %.2f\n" , test.get_Area());
         System.out.printf("The cicle circumference is: %.2f\n" , test.get_Circumference());
-
+        System.out.println(test.toString());
 
 
         scan.close();
