@@ -7,9 +7,11 @@ public class Main {
         // craet object
         Scanner scan = new Scanner(System.in);
         Prodect phone = new Prodect("samsenge","not 20 ultra",1000.5,5,10.0) ;
+        Prodect phone2 = new Prodect(phone) ;
 
         // variable
-        phone.display();
+        phone2.display();
+        
 
         scan.close();
     }

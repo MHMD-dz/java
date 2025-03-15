@@ -27,6 +27,15 @@ public class Prodect {
         discount = dis ;
     }
 
+    //Copy Constructor
+    public Prodect( Prodect obj){
+        name = obj.name ;
+        discription = obj.discription ;
+        price = obj.price ;
+        quantity = obj.quantity ;
+        discount = obj.discount ;
+    }
+
     // function 
     // set function
     public void setName(String newn){
